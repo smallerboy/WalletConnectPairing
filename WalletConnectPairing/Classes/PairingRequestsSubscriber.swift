@@ -2,7 +2,7 @@ import Foundation
 import Combine
 import WalletConnectUtils
 import WalletConnectNetworking
-import JSONRPC
+import jsonPRC
 
 public class PairingRequestsSubscriber {
     private let networkingInteractor: NetworkInteracting

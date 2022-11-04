@@ -3,7 +3,7 @@ import WalletConnectUtils
 import WalletConnectRelay
 import WalletConnectNetworking
 import Combine
-import JSONRPC
+import jsonPRC
 
 public class PairingClient: PairingRegisterer, PairingInteracting {
     public var pingResponsePublisher: AnyPublisher<(String), Never> {

@@ -1,7 +1,7 @@
 import Foundation
 import WalletConnectNetworking
 import Combine
-import JSONRPC
+import jsonPRC
 
 public protocol PairingRegisterer {
     func register<RequestParams: Codable>(
