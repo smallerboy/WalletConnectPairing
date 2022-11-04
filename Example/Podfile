@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WalletConnectPairing_Tests' do
+  pod 'WalletConnectPairing', :path => '../'
+  
+  
+end
