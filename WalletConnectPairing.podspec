@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WalletConnectPairing'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'WalletConnectV2 library'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'WalletConnectPairing/Classes/**/*'
 
-  s.dependency 'WalletConnectNetworking', '~> 1.0.1'
+  s.dependency 'WalletConnectNetworking', '~> 1.0.2'
 
   s.swift_version = '5'
   
